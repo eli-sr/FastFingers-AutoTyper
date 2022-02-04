@@ -43,14 +43,16 @@ input("[Type any key to START]")
 target = web.find_element_by_class_name('highlight')
 in_tar = web.find_element_by_xpath('/html/body/div/div/div[3]/div[2]/div[2]/div[1]/input')
 
-x = 1 # Bigger = Faster
+x = 10 # Bigger = Faster
 # Typing :)
 while True:
-    ##sleep(1/random.randint(1,x))
-    ##random_errors()
-    # Exp speed
-    sleep(1/x)
-    x = x * 2
+    sleep(1/random.randint(1,x))
+    random_errors()
+
+    # Exponential speed
+    #sleep(1/x)
+    #x = x * 2
+
     # Typing the correct word
     in_tar.send_keys(target.text)
     in_tar.send_keys(" ")

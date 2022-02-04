@@ -1,0 +1,47 @@
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1643933213803	geckodriver	INFO	Listening on 127.0.0.1:52023
+1643933213807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35209" "-no-remote" "-profile" "/tmp/rust_mozprofile7WiwrU"
+1643933214541	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7WiwrU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35209/devtools/browser/a6913fb0-5090-4d81-b56b-d5a1f061af51
+1643933216087	Marionette	INFO	Listening on port 37595
+1643933216126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://10ff.net"
+
+(firefox:7526): GLib-GObject-WARNING **: 01:08:54.660: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f1606bf0a10' of type 'MaiAtkType13b'
+1643933362776	geckodriver	INFO	Listening on 127.0.0.1:37135
+1643933362780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46515" "-no-remote" "-profile" "/tmp/rust_mozprofilelRSIPz"
+1643933363526	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelRSIPz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46515/devtools/browser/1176b083-ac19-4cf5-9103-75e218ab8349
+1643933364899	Marionette	INFO	Listening on port 36381
+1643933364995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643933365177	Marionette	INFO	Stopped listening on port 37595
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://10ff.net"
+1643933471129	Marionette	INFO	Stopped listening on port 36381
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1643933473646	geckodriver	INFO	Listening on 127.0.0.1:33275
+1643933473650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35503" "-no-remote" "-profile" "/tmp/rust_mozprofileOVTqhc"
+1643933474354	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOVTqhc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35503/devtools/browser/5cba8358-c650-44f2-ba3a-e8c5956e0093
+1643933475732	Marionette	INFO	Listening on port 37523
+1643933475773	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://10ff.net"
